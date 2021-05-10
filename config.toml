@@ -12,13 +12,13 @@ title = "Look Back"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Look Back"
+  title = "⠠⠇ | Look Back"
   description = "Here To Help"
 
 # Navigation section
 [params.nav]
   mission = "Our Mission"
-  services = "Services"
+  # services = "Services"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
