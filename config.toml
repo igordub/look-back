@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
-languageCode = "en-AU"
-title = "My Awesome Title"
+baseURL = "https://www.lookback.lv/"
+languageCode = "en-US"
+title = "Look Back"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Igors Dubanevics"
+  description = "Look Back foundation official website."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "Look Back"
+  description = "Here To Help"
 
 # Navigation section
 [params.nav]
@@ -42,31 +42,31 @@ title = "My Awesome Title"
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "mission"
+    title = "Mission"
+    subtitle = "Our mission is to raise awareness in the community about the reasonable use of resources and to help people in need."
+    description = "<p>Our mission is to raise awareness in the community about the reasonable use of resources and to help people in need.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "projects"
+    title = "Projects"
+    subtitle = "TBC"
+    description = "<p>TBC</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
-    name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "partners"
+    title = "Partners"
+    subtitle = "TBC"
+    description = "<p>TBC</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
-  enable = true
-  video = true
+  enable = false
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
+  title = "Watch What We Do"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
@@ -104,93 +104,93 @@ title = "My Awesome Title"
   enable = true
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
+    title = "Look Back"
+    subtitle = "Here to Help"
+    img = "images/people_painting_01.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/people_painting_02.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/people_painting_03.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/hospital_01.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/hospital_02.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/hospital_03.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/hospital_door_01.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
+    # title = "Consectetur adipisicing"
+    # subtitle = "Web Design"
+    img = "images/hospital_door_01.jpg"
 
 # Team section
 [params.team]
   enable = true
   title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  # description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    name = "Artjoms Karabadžaks"
+    position = "Member of the Board"
+    description = " Operational support and planning officer. Co-Founder of Look Back. Experienced aircraft engineer with more than 10 years of freelance maintenance activities around Europe, travel expert, experienced in fast deployment and development in unknown area, socially active with positive attitude."
     img = "images/person1.jpg"
-    email = "#"
-    telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
-    whatsapp = "#"
+    # email = "#"
+    # telephone = "#"
+    # facebook = "#"
+    # twitter = "#"
+    # dribbble = "#"
+    # instagram = "#"
+    # github = "#"
+    # linkedin = "#"
+    # whatsapp = "#"
 
   [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    email = "#"
-    telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    whatsapp = "#"
+    name = "Luiza Zagitova"
+    position = "Chairman of the Board"
+    description = "Formal representative of the organization, inspirational speaker and founder of the Look Back foundation. Experienced in accounting and taxing."
+    img = "images/profile_LuizaZagitova.jpg"
+    # email = "#"
+    # telephone = "#"
+    # facebook = "#"
+    # twitter = "#"
+    # dribbble = "#"
+    # instagram = "#"
+    # github = "#"
+    # whatsapp = "#"
 
   [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    email = "#"
-    telephone = "#"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    whatsapp = "#"
+    name = "Vlads Komarockis"
+    position = "Member of the Board"
+    description = "Financial planner and administrative work officer. Co-Founder of Look Back. Aspiring film producer, IT support specialist at Courthouse Agency of Republic of Latvia. Experienced volunteer and Erasmus+ participant. Polyglot."
+    img = "images/profile_VladsKomarockis.jpg"
+    # email = "#"
+    # telephone = "#"
+    # facebook = "#"
+    # twitter = "#"
+    # dribbble = "#"
+    # instagram = "#"
+    # github = "#"
+    # whatsapp = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -210,7 +210,7 @@ title = "My Awesome Title"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  message = "Please, enter your contact details and message below to reach out."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
