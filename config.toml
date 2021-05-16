@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.lookback.lv/"
+baseURL = "https://igordub.github.io/look-back/"
 languageCode = "en-US"
 title = "Look Back"
 
