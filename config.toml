@@ -11,18 +11,19 @@ title = "Look Back"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
-  title = "⠠⠇ | Look Back"
-  description = "Here To Help"
+  img = "images/cover_lookback.png"
+  # title = "⠠⠇ | Look Back"
+  # description = "Here To Help"
 
 # Navigation section
 [params.nav]
+  home = "Look Back"
   mission = "Our Mission"
   # services = "Services"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
-  # logo = "path/to/logo"
+  # logo = "images/logo_lookback.svg"
 
 # Mission section
 [params.mission]
@@ -52,96 +53,98 @@ title = "Look Back"
     name = "projects"
     title = "Projects"
     subtitle = "TBC"
-    description = "<p>TBC</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Projects</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "partners"
     title = "Partners"
-    subtitle = "TBC"
-    description = "<p>TBC</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "[Millenium](http://millenium.md/) | [shelter international e.V.](https://www.shelterinternational.eu/) | [Erasmus +](https://ec.europa.eu/programmes/erasmus-plus/)"
+    description = "<p>Partners</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
-[params.services]
-  enable = false
-  video = false
-  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Watch What We Do"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+# [params.services]
+#   enable = false
+#   video = false
+#   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+#   title = "Watch What We Do"
+#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-present"
+#     title = "Web Development"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-eye"
+#     title = "Retina Ready"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-paper-plane"
+#     title = "Light Speed"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-pencil"
+#     title = "Copyrighting"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-rocket"
+#     title = "Load Fast"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   [[params.services.item]]
+#     icon = "icon-support"
+#     title = "Customer Support"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
 # Work section
 [params.work]
   enable = true
 
+# Community engagement
   [[params.work.item]]
-    title = "Look Back"
-    subtitle = "Here to Help"
-    img = "images/people_painting_01.jpg"
-
-  [[params.work.item]]
-    # title = "Consectetur adipisicing"
-    # subtitle = "Web Design"
+    title = "Community engagement"
+    # subtitle = "Here to Help"
     img = "images/people_painting_02.jpg"
 
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Community engagement"
     # subtitle = "Web Design"
     img = "images/people_painting_03.jpg"
 
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Community engagement"
     # subtitle = "Web Design"
-    img = "images/hospital_01.jpg"
+    img = "images/hospital_04.jpg"
 
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Community engagement"
     # subtitle = "Web Design"
     img = "images/hospital_02.jpg"
 
+# Saving food
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Saving food"
     # subtitle = "Web Design"
-    img = "images/hospital_03.jpg"
+    img = "images/food_delivery_01.jpg"
 
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Saving food"
     # subtitle = "Web Design"
-    img = "images/hospital_door_01.jpg"
+    img = "images/food_delivery_02.jpg"
 
   [[params.work.item]]
-    # title = "Consectetur adipisicing"
+    title = "Saving food"
     # subtitle = "Web Design"
-    img = "images/hospital_door_01.jpg"
+    img = "images/food_01.jpg"
+
+  [[params.work.item]]
+    title = "Saving food"
+    # subtitle = "Web Design"
+    img = "images/food_04.jpg"
 
 # Team section
 [params.team]
@@ -152,8 +155,8 @@ title = "Look Back"
   [[params.team.item]]
     name = "Artjoms Karabadžaks"
     position = "Member of the Board"
-    description = " Operational support and planning officer. Co-Founder of Look Back. Experienced aircraft engineer with more than 10 years of freelance maintenance activities around Europe, travel expert, experienced in fast deployment and development in unknown area, socially active with positive attitude."
-    img = "images/person1.jpg"
+    description = "Operational support and planning officer. Co-Founder of Look Back. Experienced aircraft engineer with more than 10 years of freelance maintenance activities around Europe, travel expert, experienced in fast deployment and development in unknown area, socially active with positive attitude."
+    img = "images/profile_ArtjomsKarabadzaks.jpg"
     email = "artjoms@lookback.lv"
     # telephone = "#"
     # facebook = "#"
@@ -210,7 +213,7 @@ title = "Look Back"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Please, enter your contact details and message below to reach out."
+  message = "Please, enter your contact details and message below."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
@@ -222,10 +225,10 @@ title = "Look Back"
 [params.footer]
   enable = true
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "#"
-  twitter = "#"
-  facebook = "#"
-  vine = "#"
-  linkedin = "#"
-  instagram = "#"
+  # github = "#"
+  # twitter = "#"
+  facebook = "https://www.facebook.com/lookbackLV"
+  # vine = "#"
+  linkedin = "https://www.linkedin.com/company/77275228/"
+  instagram = "https://www.instagram.com/lookbacklv/"
   
