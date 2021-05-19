@@ -6,7 +6,7 @@
       <p>{{ .message | markdownify }}</p>
       {{ end }}
     </div>
-    <form name="contact-form" netlify-honeypot="_gotcha" action="thank-you" netlify>
+    <form name="contact-form" action="https://formspree.io/f/mbjqgqkn" method="POST">
       <div class="row">
 	<div class="col-md-6">
 	  <div class="form-group">
@@ -35,8 +35,8 @@
 	  <div class="form-group">
 	    <input type="hidden" name="_subject" value="New website query">
 	    <input type="text" name="_gotcha" style="display:none">
-	    <button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button>
-	    <!-- <input type="submit" name="submit" value="Send message" class="btn btn-primary btn-outline"> -->
+	    <!-- <button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button> -->
+	    <input type="submit" name="submit" value="Send message" class="btn btn-primary btn-outline">
 	  </div>
 	</div>
       </div>
