@@ -52,7 +52,7 @@ title = "Look Back"
     weight = 2
     name = "projects"
     title = "Projects"
-    subtitle = "TBC"
+    subtitle = "**2021 May** We have applied for a Erasmus + project: KA1 Mobility of Young People Project \"Different Society\"."
     description = "<p>Projects</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
@@ -213,7 +213,7 @@ title = "Look Back"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Please, enter your contact details and message below."
+  message = "Want to know more or you are eager to join the team? Please, enter your contact details and message below."
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
@@ -231,4 +231,4 @@ title = "Look Back"
   # vine = "#"
   linkedin = "https://www.linkedin.com/company/77275228/"
   instagram = "https://www.instagram.com/lookbacklv/"
-  
+  img = "images/people_painting_03.jpg"
