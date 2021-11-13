@@ -539,11 +539,11 @@ p {
 
 #fh5co-services {
   position: relative;
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services {
-    padding: 5em 0 3em 0;
+    padding: 1em 0 1em 0;
   }
 }
 #fh5co-services .fh5co-video {
@@ -760,14 +760,14 @@ p {
 
 #fh5co-gallery {
   clear: both;
-  float: left;
+  float: center;
   width: 100%;
 }
 #fh5co-gallery .fh5co-item {
   display: block;
   position: relative;
-  width: 25%;
-  z-index: 2;
+  width: 33.33333%;
+  z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -779,7 +779,7 @@ p {
 }
 @media screen and (max-width: 1200px) {
   #fh5co-gallery .fh5co-item {
-    height: 200px;
+    height: 300px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -799,7 +799,7 @@ p {
   right: 0;
   left: 0;
   z-index: 0;
-  background: #69c2c8;
+  background: #69c8c3;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.1s;
@@ -833,22 +833,22 @@ p {
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
   opacity: 0;
-  visibility: hidden;
+  visibility: visi;
   position: relative;
 }
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2 {
-  top: -10px;
+  top: -100px;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: -100px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   position: relative;
 }
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -876,7 +876,7 @@ p {
 }
 
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 18em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
